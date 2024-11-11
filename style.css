@@ -1,0 +1,18 @@
+body, html {
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+.full-screen-image {
+    width: 100vw;           
+    height: auto;          
+}
+
+@media (max-width: 768px) {
+    .full-screen-image {
+        content: url('./assets/images/mobile.png'); 
+        width: 100vw;       
+        height: auto;       
+    }
+}
